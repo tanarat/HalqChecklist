@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Checklist</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="user_name">ผู้ใช้งาน</string>
+    <string name="main_menu_title">เมนู</string>
+    <string name="menuSheetList">ดูรายการตรวจประเมิน</string>
+    <string name="menuNewSheet">สร้างรายการตรวจประเมิน</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_checklist">ChecklistActivity</string>
+    <string name="title_activity_item">ItemActivity</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_item_list">Items</string>
+    <string name="choice1">มี</string>
+    <string name="choice2">ไม่มี</string>
+    <string name="choiceNA">N/A</string>
+    <string name="title_activity_sheet_list">SheetListActivity</string>
+    <string name="title_activity_sheet_detail">SheetDetailActivity</string>
+
+    <!-- Sheet Detail -->
+    <string name="header_sheet_info">ข้อมูลใบประเมิน</string>
+    <string name="sheet_name">ชือใบประเมิน</string>
+    <string name="checklist">แบบประเมิน</string>
+    <string name="evaluation_type">การประเมิน</string>
+    <string name="eval_date_time">วัน-เวลา ตรวจประเมิน</string>
+    
+    
+    <string name="header_company_info">ข้อมูลผู้ประกอบการ</string>
+    <string name="lbl_entrepreneur">ผู้ประกอบการ</string>
+    <string name="lbl_address">ที่อยู่</string>
+    
+    <string name="header_auditor_info">ข้อมูลผู้ตรวจประเมิน</string>
+    <string name="lbl_auditor">ผู้ตรวจประเมิน</string>
+    
+    <string name="alert_dialog_entrepreneur_list">ผู้ประกอบการ</string>
+    <string name="alert_dialog_time">เวลาตรวจประเมิน</string>
+    <string name="alert_dialog_ok">ตกลง</string>
+    <string name="alert_dialog_cancel">ยกเลิก</string>
+    <string name="alert_dialog_yes">ใช่</string>
+    <string name="alert_dialog_no">ไม่ใช่</string>
+    <string name="alert_dialog_confirm_save">บันทึกใบประเมิน</string>
+    <string name="alert_dialog_confirm_save_finish">บันทึกใบประเมินเรียบร้อยแล้ว, เริ่มการตรวจประเมินเดี๋ยวนี้?</string>
+    <string name="alert_save_fail">ไม่สามารถบันทึกใบประเมินได้</string>
+    <string name="alert_company_required">กรุณาเลือกผู้ประกอบการ</string>
+    <string name="alert_dialog_evaluation_type_list">การประเมิน</string>
+    
+    
+    
+<!--     action bar -->
+    <string name="action_bar_save">บันทึก</string>
+    <string name="action_bar_search">ค้นหา</string>
+    <string name="action_bar_new">เพิ่ม</string>
+    <string name="action_bar_edit">แก้ไข</string>
+    <string name="action_bar_share">แบ่งปัน</string>
+    <string name="action_bar_sort">เรียง</string>
+    <string name="action_bar_sort_size">ขนาด</string>
+    <string name="action_bar_sort_alpha">อักษร</string>
+</resources>

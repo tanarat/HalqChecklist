@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content">
+    	
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <!-- company info -->
+    <TextView
+        android:id="@+id/lblCompanyHeader"
+        android:text="@string/header_company_info" 
+        style="@style/SectionHeader"
+        />
+    <TextView
+        android:id="@+id/lblEntrepreneur"
+        android:text="@string/lbl_entrepreneur" 
+        style="@style/label"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/etCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp" 
+        	android:layout_marginRight="20dp"
+            android:enabled="false"/>
+
+        <ImageView
+            android:id="@+id/imgSelectEntrepreneur"
+			style="@style/navigation_img"
+            android:onClick="selectEntrepreneur"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lblAddress"
+        android:text="@string/lbl_address" 
+        style="@style/label"/>
+    
+    <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" 
+        	android:layout_marginRight="60dp"
+            android:enabled="false"
+			/>
+    
+    
+        
+    
+    <!--ข้อมูลใบประมิน -->
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/SectionHeader"
+        android:text="@string/header_sheet_info" 
+        />
+    
+    
+
+    <!-- Checklist -->
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/label"
+        android:text="@string/checklist" 
+	/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+        android:id="@+id/checklist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp" 
+        android:layout_marginRight="20dp"
+		android:enabled="false"/>
+            
+
+        <ImageView
+            android:id="@+id/imgSelectChecklist"
+            style="@style/navigation_img"
+            android:onClick="selectChecklist"
+            />
+
+    </LinearLayout>
+    
+    <!-- Evaluation type -->
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/label"
+        android:text="@string/evaluation_type" 
+	/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+        android:id="@+id/auditType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp" 
+        android:layout_marginRight="20dp"
+		android:enabled="false"/>
+            
+
+        <ImageView
+            android:id="@+id/imgSelectChecklist"
+            style="@style/navigation_img"
+            android:onClick="selectEvaluationType"
+            />
+
+    </LinearLayout>
+    
+    
+    <!-- Evaluation date -->
+     <TextView
+        android:id="@+id/lblEvalDateTime"
+        style="@style/label"
+        android:text="@string/eval_date_time" 
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/evalDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp" 
+        	android:layout_marginRight="20dp"
+            android:enabled="false"/>
+
+        <ImageView
+            android:id="@+id/imgSelectDate"
+			style="@style/navigation_img" 
+            android:onClick="selectDate"
+            />
+        
+        <EditText
+            android:id="@+id/evalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp" 
+        	android:layout_marginRight="20dp"
+            android:enabled="false"/>
+
+        <ImageView
+            android:id="@+id/imgSelectTime"
+			style="@style/navigation_img"
+            android:onClick="selectTime"
+            />
+
+        
+        
+    </LinearLayout>
+    
+     
+    <!-- auditor info -->
+    <TextView
+        android:id="@+id/textView4"
+        android:text="@string/header_auditor_info" 
+        style="@style/SectionHeader"
+        />
+    <TextView
+        android:id="@+id/lblAuditor"
+        android:text="@string/lbl_auditor" 
+        style="@style/label"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp" 
+        	android:layout_marginRight="20dp"
+            android:enabled="false"/>
+
+        <ImageView
+            android:id="@+id/imgSelectAuditor"
+			style="@style/navigation_img"
+            android:onClick="selectAuditor"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+   </ScrollView>

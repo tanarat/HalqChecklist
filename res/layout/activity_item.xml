@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemActivity" 
+    android:layout_marginLeft="15dp"
+    android:id="@+id/activity_item_layout">
+    
+    <TextView
+        android:id="@+id/tvItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Large"
+        android:layout_below="@+id/checkBox1"
+        android:text="@string/hello_world" 
+        />
+	<RadioGroup
+        android:id="@+id/radioChoices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_below="@+id/tvItemTitle"
+        style="@android:style/TextAppearance.Large"
+        android:layout_marginLeft="20dp"
+        >
+        <RadioButton
+	    android:id="@+id/radioChoice1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/choice1" 
+	    style="@android:style/TextAppearance.Large"/>
+
+		<RadioButton
+	    android:id="@+id/radioChoice2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/choice2" 
+	    style="@android:style/TextAppearance.Large"/>
+		
+		
+	    
+	</RadioGroup>
+
+	<CheckBox
+	    android:id="@+id/checkBox1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:paddingRight="60dp"
+	    android:text="@string/choiceNA" />
+
+	
+
+</RelativeLayout>
